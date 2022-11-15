@@ -1,0 +1,57 @@
+.body {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: Poppins, Ariel;
+}
+
+.shareer {
+    padding-top: 50px;
+}
+
+.track {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.designation {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.defimg {
+    height: 150px;
+    border-radius: 75px;
+}
+.self_stuff {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    padding-bottom: 50px;
+}
+.self_desc {
+    padding-left: 20px;
+}
+.under_lead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projectlist {
+    display: grid;
+    grid-template-columns: 0.75fr 1.25fr;
+    padding-bottom: 35px;
+}
+.projecttitle {
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+.projectdesc {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.projectcontact {
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+    padding-bottom: 10px;
+}

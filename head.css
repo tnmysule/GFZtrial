@@ -1,0 +1,30 @@
+.header {
+    background-color: rgb(39, 87, 164);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    font-size: 15px; 
+    font-family: Sono, Ariel;  
+    font-weight: 500;
+}
+
+.heads {
+    display: grid;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    transition: font-size 0.5s;
+    cursor: pointer;
+}
+.heads:link { text-decoration: none; }
+.heads:visited { text-decoration: none; }
+.heads:hover {text-decoration: none; font-size: 20px; }
+.heads:active { text-decoration: none; }
