@@ -1,0 +1,30 @@
+.leftpanel {
+    background-color: #00589c;
+    margin-top: 10px;    
+    margin-bottom: 10px;  
+    position: fixed;
+    height: 310px;
+    padding-right: 20px;
+}
+.leftpanel2 {
+    background-color: #00589c;
+    margin-top: 10px;    
+    margin-bottom: 10px;  
+    width: 240px;
+}
+.grouping {
+    font-family: Poppins, Ariel;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    transition: 0.15s;
+}
+.grouping:link { text-decoration: none; }
+.grouping:visited { text-decoration: none; }
+.grouping:hover {text-decoration: none; color: gray; }
+.grouping:active { text-decoration: none; }
+
+.leaders {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
